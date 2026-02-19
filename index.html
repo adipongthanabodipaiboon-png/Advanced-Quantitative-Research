@@ -62,7 +62,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
   font-size:18px;margin-bottom:10px;
 }
 .sb-title{font-size:12px;font-weight:700;color:#f1f5f9;line-height:1.45}
-.sb-sub{font-size:14.5px;color:#94a3b8;margin-top:3px}
+.sb-sub{font-size:10.5px;color:#94a3b8;margin-top:3px}
 
 .sb-section{padding:16px 12px 6px}
 .sb-section-label{
@@ -81,7 +81,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
 }
 .sb-item:hover{background:rgba(255,255,255,0.08);color:#e2e8f0}
 .sb-item.active{background:#2563eb;color:#fff;font-weight:600}
-.sb-item .ico{font-size:14px;width:18px;text-align:center;flex-shrink:0}
+.sb-item .ico{font-size:10px;width:18px;text-align:center;flex-shrink:0}
 .sb-item .badge{
   margin-left:auto;background:rgba(255,255,255,0.12);
   color:#cbd5e1;font-size:10px;padding:1px 6px;border-radius:8px;font-weight:700;
@@ -110,7 +110,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
   padding:10px 12px;
 }
 .sb-stat-n{font-size:22px;font-weight:800;color:#34d399}
-.sb-stat-l{font-size:14.5px;color:#64748b;margin-top:1px}
+.sb-stat-l{font-size:10.5px;color:#64748b;margin-top:1px}
 
 /* ── MAIN ── */
 .main{flex:1;display:flex;flex-direction:column;height:100vh;overflow:hidden;min-width:0}
@@ -167,7 +167,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
   background:var(--surface);border:1px solid var(--border);
   border-radius:var(--r);padding:16px 18px;
 }
-.kpi-label{font-size:14.5px;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.kpi-label{font-size:10.5px;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
 .kpi-val{font-size:30px;font-weight:800;line-height:1;letter-spacing:-.02em}
 .kpi-sub{font-size:11px;color:var(--t4);margin-top:5px}
 .kpi-bar{height:3px;border-radius:2px;margin-top:10px;background:var(--border)}
@@ -177,7 +177,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
 .tbl{width:100%;border-collapse:collapse;font-size:12.5px}
 .tbl th{
   padding:8px 12px;text-align:left;
-  font-size:14.5px;font-weight:700;color:var(--t3);
+  font-size:10.5px;font-weight:700;color:var(--t3);
   text-transform:uppercase;letter-spacing:.05em;
   background:var(--surface2);border-bottom:1px solid var(--border);
   white-space:nowrap;
@@ -189,7 +189,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
 .tbl .tr{text-align:right}
 
 /* BADGES */
-.bdg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:12px;font-size:14.5px;font-weight:700}
+.bdg{display:inline-flex;align-items:center;padding:2px 9px;border-radius:12px;font-size:10.5px;font-weight:700}
 .bdg-g{background:var(--green-l);color:#065f46}
 .bdg-a{background:var(--gold-l);color:#92400e}
 .bdg-r{background:var(--red-l);color:#991b1b}
@@ -265,7 +265,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
 
 /* SECTION DIVIDER */
 .sec-div{
-  font-size:14.5px;font-weight:700;color:var(--t3);
+  font-size:10.5px;font-weight:700;color:var(--t3);
   text-transform:uppercase;letter-spacing:.08em;
   margin:20px 0 10px;display:flex;align-items:center;gap:8px;
 }
@@ -280,7 +280,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
 .cron-val{font-size:28px;font-weight:800;line-height:1;letter-spacing:-.02em}
 .cron-name{font-size:11px;color:var(--t3);margin:3px 0 10px}
 .cron-interp{font-size:12px;font-weight:700;margin-top:8px}
-.cron-meta{font-size:14.5px;color:var(--t4);margin-top:2px}
+.cron-meta{font-size:10.5px;color:var(--t4);margin-top:2px}
 
 /* COMPARE arrow */
 .diff-pos{color:var(--blue);font-weight:700}
@@ -311,7 +311,7 @@ body{font-family:'Sarabun',sans-serif;background:var(--bg);color:var(--t1);displ
 
 /* radar section mini cards */
 .sec-mini{border:1px solid var(--border);border-radius:9px;padding:14px 16px;background:var(--surface);text-align:center}
-.sec-mini-title{font-size:14.5px;font-weight:700;color:var(--t3);margin-bottom:8px}
+.sec-mini-title{font-size:10.5px;font-weight:700;color:var(--t3);margin-bottom:8px}
 .sec-mini-nums{display:flex;justify-content:space-around;gap:8px}
 .sec-mini-num{font-size:22px;font-weight:800}
 .sec-mini-tag{font-size:10px;color:var(--t4);margin-top:2px}
@@ -1012,7 +1012,7 @@ function renderIOCBar(f='all'){
     datasets:[{data:vals,backgroundColor:colors,borderRadius:4,label:'IOC'}]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},
     tooltip:{callbacks:{label:c=>`IOC = ${c.parsed.y.toFixed(2)}`}}},
-    scales:{y:{...scY(0,1.1)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    scales:{y:{...scY(0,1.1)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
 }
 
 // ════════════════ CRONBACH ════════════════
@@ -1053,7 +1053,7 @@ function renderCronbach(){
     labels:CRON_VAR.map(r=>r.id),
     datasets:[{data:CRON_VAR.map(r=>r.s2),backgroundColor:CRON_VAR.map(r=>r.s2>1.8?CL.red:r.s2>1.4?CL.gold:CL.green),borderRadius:3,label:'S²i'}]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-    scales:{y:{...scY(0,2.5)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    scales:{y:{...scY(0,2.5)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
 }
 
 // ════════════════ DASHBOARD ════════════════
@@ -1093,7 +1093,7 @@ function applyFilter(){
     datasets:[{data:means,backgroundColor:colors,borderRadius:4,label:'Mean'}]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},
     tooltip:{callbacks:{label:c=>`Mean = ${c.parsed.y.toFixed(3)}\n${LS[c.dataIndex].lb}`}}},
-    scales:{y:{...scY(1,5)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    scales:{y:{...scY(1,5)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
 
   // update likert table using the selected group's data
   renderLkTable(g);
@@ -1109,15 +1109,15 @@ function applyFilter(){
   mk('d-age',{type:'bar',data:{
     labels:Object.keys(agD),datasets:[{data:Object.values(agD),backgroundColor:[CL.blue,CL.teal,CL.purple,CL.green],borderRadius:5,label:'คน'}]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-    scales:{y:{...scY(0,70)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    scales:{y:{...scY(0,70)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
   mk('d-inc',{type:'bar',data:{
     labels:Object.keys(incD),datasets:[{data:Object.values(incD),backgroundColor:CL.teal,borderRadius:5,label:'คน'}]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-    indexAxis:'y',scales:{x:{...scY(0,70)},y:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    indexAxis:'y',scales:{x:{...scY(0,70)},y:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
   mk('d-aw',{type:'doughnut',data:{
     labels:Object.keys(awD),datasets:[{data:Object.values(awD),backgroundColor:[CL.green,CL.blue,CL.gold,CL.red],borderWidth:2,borderColor:'#fff'}]
   },options:{responsive:true,maintainAspectRatio:false,cutout:'55%',
-    plugins:{legend:{position:'bottom',labels:{color:'#64748b',padding:8,font:{size:14}}}}}});
+    plugins:{legend:{position:'bottom',labels:{color:'#64748b',padding:8,font:{size:10}}}}}});
 }
 
 function renderLkTable(g){
@@ -1162,7 +1162,7 @@ function renderDash(){
     labels:Object.keys(POS_PUB),
     datasets:[{data:Object.values(POS_PUB),backgroundColor:CL.purple,borderRadius:5,label:'คน'}]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-    indexAxis:'y',scales:{x:{...scY(0,22)},y:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    indexAxis:'y',scales:{x:{...scY(0,22)},y:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
 
   // apply default filter (all)
   applyFilter();
@@ -1175,7 +1175,7 @@ function renderDash(){
       {label:'บุคคลทั่วไป',data:LS.map(s=>s.gm),backgroundColor:'rgba(180,83,9,.7)',borderRadius:3}
     ]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#475569'}}},
-    scales:{y:{...scY(1,5)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    scales:{y:{...scY(1,5)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
 
   // Radar
   mk('radar-chart',{type:'radar',data:{
@@ -1185,8 +1185,8 @@ function renderDash(){
       {label:'บุคคลทั่วไป',data:SEC_GEN,borderColor:C.gold,backgroundColor:'rgba(180,83,9,.1)',pointBackgroundColor:C.gold,pointRadius:4}
     ]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#475569'}}},
-    scales:{r:{min:1,max:5,grid:{color:'#e2e8f0'},ticks:{color:'#94a3b8',backdropColor:'transparent',font:{size:14}},
-      pointLabels:{color:'#64748b',font:{size:14}}}}}});
+    scales:{r:{min:1,max:5,grid:{color:'#e2e8f0'},ticks:{color:'#94a3b8',backdropColor:'transparent',font:{size:10}},
+      pointLabels:{color:'#64748b',font:{size:10}}}}}});
 
   // Section mini cards
   const sc=document.getElementById('sec-cards');
@@ -1227,7 +1227,7 @@ function renderDash(){
       {label:'บุคคลทั่วไป',data:q2Keys.map(k=>Q2_GEN[k]||0),backgroundColor:CL.gold,borderRadius:4}
     ]
   },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#475569'}}},
-    scales:{y:{...scY(0,15)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:14}}}}}});
+    scales:{y:{...scY(0,15)},x:{...scX(),ticks:{color:'#94a3b8',font:{size:10}}}}}});
 
   // OE summary
   document.getElementById('oe-summary').innerHTML=`
